@@ -22,7 +22,7 @@ def main():
 
     # Loading saved model from models folder
 
-    saved_model_RNN = load_model("./models/20865621_RNN_model.model")
+    saved_model_RNN = load_model("./models/RNN_model.model")
 
     # Data Normalization
     sc = MinMaxScaler(feature_range=(0, 1))
