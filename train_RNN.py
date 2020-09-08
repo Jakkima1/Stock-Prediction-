@@ -129,13 +129,9 @@ def main():
 
     model.fit(X_train, Y_train, epochs=10, batch_size=64)
     # Saving trained Model
-    model.save("./models/20865621_RNN_model.model")
+    model.save("./models/RNN_model.model")
 
 
 if __name__ == "__main__":
     main()
-	# 2. Train your network
-	# 		Make sure to print your training loss within training to show progress
-	# 		Make sure you print the final training loss
-
-	# 3. Save your model
+	
