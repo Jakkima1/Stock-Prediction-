@@ -4,7 +4,8 @@ I have designed a Recurrent Neural Network using the machine learning platform u
 and Low prices and volume. I have considered Volume, Open, High and Low as features to predict the future/next day opening price. I have took the last 3 days data to predict the next day opening price.
 
 How to run the code:
-Create data folder and paste q2_dataset.csv
-Create models folder
-Run train_RNN.py
-Run Test_RNN.py
+
+1) Create data folder and paste q2_dataset.csv
+2) Create models folder
+3) Run train_RNN.py
+4) Run Test_RNN.py
